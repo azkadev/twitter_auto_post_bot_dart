@@ -44,3 +44,6 @@ jika sudah typing
 ```bash
 dart run
 ```
+
+
+Video lebih lengkap bisa di lihat di ch youtube saya [Azkadev-Youtube](https://youtube.com/@azkadev)
