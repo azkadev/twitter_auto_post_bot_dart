@@ -1,6 +1,6 @@
 # Twitter auto post bot dart
 
-
+Twitter adalah sebuah platform social media, program ini di buat agar kamu bisa membuat post secara automatis menggunakan api
 
 ## Cara pakai
 download dlu
@@ -19,17 +19,19 @@ dart pub get
 ```
 
 isi data token , key ,  secret sesuai akun kamu ya
+
 ```bash
-  TwitterClient twitterClient = TwitterClient(
-    bearerToken: '',
-    consumerKey: '',
-    consumerSecret: '',
-    accessToken: "",
-    accessTokenSecret: '',
-  );
+TwitterClientData(
+    bearer_token: "",
+    consumer_key: "",
+    consumer_secret: "",
+    access_token_secret: "",
+    access_token: "",
+),
 ```
 
 edit pesan ini sesuka hati ya jika kalian ingin menggunakan kata kata kalian
+
 ```dart
 
   var message = """
