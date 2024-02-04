@@ -1,15 +1,16 @@
-import 'dart:async';
-import 'dart:io';
+import 'dart:async'; 
 
 import 'package:twitter_client/twitter_client.dart';
 
 Future<void> main() async {
   TwitterClient twitterClient = TwitterClient(
-    bearerToken: '',
-    consumerKey: '',
-    consumerSecret: '',
-    accessToken: "",
-    accessTokenSecret: '',
+    twitter_client_data: TwitterClientData(
+      bearer_token: "",
+      consumer_key: "",
+      consumer_secret: "",
+      access_token_secret: "",
+      access_token: "",
+    ),
   );
 
   var message = """
